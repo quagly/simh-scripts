@@ -4,8 +4,9 @@ scripts and configuration to simplify and automate using [SIMH](https://github.c
 
 includes 
 * configuration files
-* expect scripts
-* compile scripts
+* expect 
+* compile 
+* networking 
 * dependency setup
 
 
