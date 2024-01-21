@@ -42,6 +42,7 @@ fi
 for sim in "${SIMS[@]}"
 do
   echo "compiling ${sim}"
+  # this needs pwd set to project.  cd?
   make clean
   make "${sim}"
   cp "./BIN/${sim}" "${HOME}/bin/"
