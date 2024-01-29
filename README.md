@@ -4,6 +4,7 @@ scripts and configuration to simplify and automate using [SIMH](https://github.c
 key documentation
 * [user guide](https://tangentsoft.com/pidp8i/uv/doc/simh/main.pdf)
 * [user guide supplement](http://simh.trailing-edge.com/hp/docs/simh_supplement.pdf)
+* [list of commands](https://github.com/open-simh/simh/blob/master/SIMH-V4-status.md)
 
 includes 
 * configuration files
