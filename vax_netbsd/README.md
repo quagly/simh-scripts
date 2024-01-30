@@ -5,6 +5,6 @@ I want to install a current system to have the os tools to help diagnose vax iss
 
 Following [netbsd-simh](https://github.com/kernelzeroday/netbsd-simh)
 and [netbsd-vax](https://www.netbsd.org/ports/vax/emulator-howto.html)
-which are the same instructions
+which are almost the same instructions
 
 
