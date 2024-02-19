@@ -37,6 +37,8 @@ git fetch
 if [ "$(git rev-parse HEAD)" == "$(git rev-parse @"{u}")" ]; then
   echo "project not updated, nothing to do"
   exit 0
+else 
+  git merge
 fi
 
 for sim in "${SIMS[@]}"

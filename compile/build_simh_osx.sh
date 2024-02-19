@@ -18,6 +18,8 @@ if [ "$(git rev-parse HEAD)" == "$(git rev-parse @"{u}")" ]; then
   echo "project not updated, nothing to do"
   cd -
   exit 0
+else
+  git merge
 fi
 
 # install dependencies
