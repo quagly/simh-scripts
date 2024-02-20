@@ -7,4 +7,15 @@ Following [netbsd-simh](https://github.com/kernelzeroday/netbsd-simh)
 and [netbsd-vax](https://www.netbsd.org/ports/vax/emulator-howto.html)
 which are almost the same instructions
 
+* manual.ini just initializes the install and you have to do the rest by hand
+* install.ini is a fully automated install
+* step.ini makes the menu selections but waits for enter so you can see each step
+* boot.ini takes a parameter of install type.  
 
+## TODO
+
+* document data directory items here
+* document all install types
+* automate copy of install data files to boot data files
+* solve for simh exit at sim> prompt on install
+* automate install and boot together 
