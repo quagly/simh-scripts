@@ -25,7 +25,8 @@ set -euf -o pipefail
 # sudo emerge --ask net-misc/vde
 
 
-declare -rx GIT_DIR="${HOME}/repos/simh/.git"
+declare -r PROJECT_DIR="${HOME}/repos/simh/"
+declare -rx GIT_DIR="${PROJECT_DIR}.git"
 declare -r -a SIMS=(
   "pdp11"
   "microvax2"
@@ -45,7 +46,7 @@ for sim in "${SIMS[@]}"
 do
   echo "compiling ${sim}"
   # this needs pwd set to project.  cd?
-  make clean
-  make "${sim}"
-  cp "./BIN/${sim}" "${HOME}/bin/"
+  make -C "${PROJECT_DIR}" clean
+  make -C "${PROJECT_DIR}" "${sim}"
+  cp "${PROJECT_DIR}BIN/${sim}" "${HOME}/bin/"
 done
