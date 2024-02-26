@@ -12,6 +12,9 @@ which are almost the same instructions
 * step.ini makes the menu selections but waits for enter so you can see each step
 * boot.ini takes a parameter of install type.  
 
+to ssh after boot.ini use port forwarding from localhost
+`ssh -p 2222 test@localhost`
+
 ## TODO
 
 * document data directory items here
