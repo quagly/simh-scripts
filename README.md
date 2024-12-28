@@ -18,6 +18,3 @@ includes
 simh has powerful automation capabilities that can be used for testing.  The commands are well documented in the user guide, but not always clear which to use.  See examples in the simh project like:
 * [scriptable interactions with running simulators](https://github.com/simh/simh#scriptable-interactions-with-running-simulators)
 * [vax-diag_test.ini](https://raw.githubusercontent.com/simh/simh/master/VAX/tests/vax-diag_test.ini)
-
-
-

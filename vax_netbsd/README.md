@@ -15,7 +15,7 @@ ini files called directly
 
 ini files called by other ini files via `do` for items that are shared
 * env-shared.ini enviornment variables that are shared by all processes
-* gloabl-shared.ini devices shared by all processes
+* global-shared.ini devices shared by all processes
 * install-shared.ini environment and devices shared by all installs
 
 
