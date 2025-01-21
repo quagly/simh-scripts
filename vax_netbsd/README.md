@@ -23,9 +23,11 @@ to ssh after first-boot.ini use port forwarding from localhost
 user is the user the install was run as
 `ssh -p 2222 ${USER}@localhost`
 
+to boot after installation and data files are copied just 
+`vax run.ini`
+
 ## TODO
 
 * document data directory items here
 * document all install types
 * automate copy of install data files to boot data files
-* automate install and boot together 
