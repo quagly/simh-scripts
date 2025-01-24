@@ -26,8 +26,27 @@ user is the user the install was run as
 to boot after installation and data files are copied just 
 `vax run.ini`
 
-## TODO
 
+## Install Types
+
+### Manual
+Manual install just boots the install iso.  Everything else is by hand. 
+
+`vax manual.ini`
+
+### Step
+Step install the selections are automated but you have to hit enter for each step
+Primary purpose is to debug the Auto install
+
+`vax step.ini`
+
+### Auto
+Fully automated boot and installation.  
+
+`vax auto.ini`
+
+## Data Directory
+
+## TODO
 * document data directory items here
-* document all install types
 * automate copy of install data files to boot data files
