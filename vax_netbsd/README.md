@@ -1,7 +1,9 @@
 # install netbsd 10 on vax
 using the vax binary which emulates vax3900
 
-I want to install a current system to have the os tools to help diagnose vax issues.
+## Purpose
+The purpose of this process is to install a current system to have 
+the os and neworking tools to help diagnose vax issues.
 
 Following [netbsd-simh](https://github.com/kernelzeroday/netbsd-simh)
 and [netbsd-vax](https://www.netbsd.org/ports/vax/emulator-howto.html)
@@ -25,6 +27,9 @@ user is the user the install was run as
 
 to boot after installation and data files are copied just 
 `vax run.ini`
+
+to ssh from gentoo using slirp and nat
+`ssh -p 2222 mwest@localhost`
 
 
 ## Install Types
